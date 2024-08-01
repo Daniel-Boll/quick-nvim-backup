@@ -1,8 +1,5 @@
--- bootstrap lazy.nvim, LazyVim and your plugins
-require("config.lazy")
 vim.opt.exrc = true
 vim.g.rustaceanvim = {
-  -- ...
   server = {
     ---@param project_root string Path to the project root
     settings = function(project_root)
